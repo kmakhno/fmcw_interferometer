@@ -1,0 +1,46 @@
+# Bitstreams, etc.
+bit/
+
+# Misc. files
+#misc/
+
+# Eclipse packages
+Packages/
+
+# Scripts
+scripts/proj2tcl/
+
+# SDK
+sdk/.*/
+!sdk/*_bsp*/
+sdk/*_hw_platform*/
+sdk/*/Debug/
+sdk/*/Release/
+sdk/webtalk/
+sdk/*.log
+sdk/RemoteSystemsTempFiles/
+sdk/**/.goutputstream*
+
+# Block Design
+src/bd/**/*.*
+!src/bd/*.tcl
+!src/bd/*/hdl/*.v
+!src/bd/*/hdl/*.vhdl
+
+# IP cores 
+src/ip/**/*.*
+!src/ip/*/*.xci
+!src/ip/*/*.coe
+
+# Vivado project files
+vivado/
+
+# Files in root catalog
+.*/
+*.jou
+*.log
+*.backup
+*.str
+*.dmp
+
+
